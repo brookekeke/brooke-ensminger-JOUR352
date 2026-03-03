@@ -1,0 +1,42 @@
+/*
+MY COLOR PALETTE
+Black Red - #390E15
+Dark Red - #832133
+Pink - #BC4E67
+Medium Pink - #CD90A1
+Light Pink - #EACCD4
+*/
+
+body {
+    background-color: #eaccd4;
+    text-align: center;
+}
+
+button {
+    background-color: #cd90a1;
+    color: #832133;
+    text-transform: uppercase;
+    letter-spacing: 0.6px;
+    width: 200px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    margin-top: 50px;
+    border: none;
+    border-radius: 10px;
+}
+
+button:hover {
+    background-color: #832133;
+    color: #eaccd4;
+}
+
+h1 {
+    font-family: "Ranchers", sans-serif;
+}
+
+h2 {
+    font-family: "Unna", serif;
+}
+button {
+    font-family: "Unna", serif;
+}
