@@ -1,0 +1,124 @@
+/*
+MY COLOR PALETTE
+White - #ffffff
+Light Blue - #eeffff
+Medium Blue - #bfebff
+Dark Blue - #8ac3dd
+Grey - #899195
+Light Brown - #706560
+Dark Brown - #221a12
+*/
+
+@media screen {
+
+body {
+    background-color: #221a12;
+}
+
+h1 {
+    font-family: "Libre Bodoni", serif;
+    color: #bfebff;
+    margin-top: 100px;
+    font-size: 50px;
+    text-transform: uppercase;
+}
+
+h2 {
+    font-family: "Montserrat", sans-serif;
+    color: #eeffff;
+}
+button {
+    font-family: "Montserrat", sans-serif;
+    background-color: #899195;
+    color: #eeffff;
+    text-transform: uppercase;
+    letter-spacing: 0.2px;
+    width: 200px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    margin-top: 50px;
+    border: none;
+    border-radius: 15px;
+}
+
+button:hover {
+    background-color: #eeffff;
+    color: #899195;
+}
+
+#headshot {
+    width: 100%;
+    border-radius: 15px;
+    margin-top: 15px;
+    position: center;
+}
+
+#madness {
+    width:100%;
+    border: none;
+    border-radius: 15px;
+    margin-bottom: 15px;
+    height:400;
+    position: center; 
+}
+
+h3 {
+    font-family: "Libre Bodoni", serif;
+    color: #eeffff;
+    padding-top: 50px;
+    text-align: center;
+    font-size: 40px;
+}
+
+h4 {
+    font-family: "Libre Bodoni", serif;
+    color: #8ac3dd;
+    text-align: center;
+    padding-top: 30px;
+    font-size: 20px;
+}
+
+h5 {
+    font-family: "Libre Bodoni", serif;
+    color: #eeffff;
+    text-align: center;
+    font-size: 20px;
+}
+
+.date {
+    font-family: "Montserrat", sans-serif;
+    color: #eeffff;
+    font-style: italic;
+    text-align: center;
+    font-size: 15px;
+}
+
+h6 {
+font-family: "Montserrat", sans-serif;
+    color: #ffffff;
+    text-align: center;
+    font-size: 15px;
+}
+
+.skills {
+    font-family: "Montserrat", sans-serif;
+    color: #bfebff;
+    text-align: center;
+}
+
+.thick-line {
+    height: 5px;
+    border: none;
+    background-color: #bfebff;
+}
+}
+
+@media (min-width:576px) {
+    h1 {font-size:50px}
+    
+}
+
+@media (min-width:768px) {
+    h1 {font-size:70px}
+    
+}
