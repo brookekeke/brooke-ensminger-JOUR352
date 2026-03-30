@@ -61,11 +61,12 @@ button:hover {
     height:400;
     position: center; 
 }
-
+    
 h3 {
     font-family: "Libre Bodoni", serif;
     color: #eeffff;
-    padding-top: 50px;
+    margin-top:50px;
+    margin-bottom: 25px;
     text-align: center;
     font-size: 40px;
 }
@@ -74,7 +75,6 @@ h4 {
     font-family: "Libre Bodoni", serif;
     color: #8ac3dd;
     text-align: center;
-    padding-top: 30px;
     font-size: 20px;
 }
 
@@ -91,6 +91,7 @@ h5 {
     font-style: italic;
     text-align: center;
     font-size: 15px;
+    padding-bottom: 0px
 }
 
 h6 {
@@ -98,6 +99,9 @@ font-family: "Montserrat", sans-serif;
     color: #ffffff;
     text-align: center;
     font-size: 15px;
+    margin-left: 25px;
+    margin-right: 25px;
+    padding-bottom: 25px
 }
 
 .skills {
@@ -111,7 +115,34 @@ font-family: "Montserrat", sans-serif;
     border: none;
     background-color: #bfebff;
 }
+
+ .thick-line-2 {
+    height: 5px;
+    border: none;
+    background-color: #bfebff;
+    margin-top: 50px
 }
+
+ .nav {
+        justify-content: center;
+         font-family: "Montserrat", sans-serif;
+    }
+
+    .nav a {
+        color: #eeffff;
+        text-decoration: none;
+    }
+
+    .nav a:hover {
+        font-weight: bold;
+        border-bottom: 1px solid;
+    }
+
+  .job {
+        margin-bottom: 35px;
+        padding-bottom: 20px;
+        border-bottom: 3px solid blue;
+    }
 
 @media (min-width:576px) {
     h1 {font-size:50px}

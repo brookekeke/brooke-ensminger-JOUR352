@@ -21,23 +21,40 @@
         <link href="style.css" rel="stylesheet" />
     </head>
 
-    
     <body>
+        <hr class="thick-line" id=one />
+
+        <div class="container-fluid" id="navigation">
+            <div class="row">
+                <div class="col-sm-4">
+                    <p class="nav"><a href="#experience">Experience</a></p>
+                </div>
+                <div class="col-sm-4">
+                    <p class="nav"><a href="#skill">Skills</a></p>
+                </div>
+                <div class="col-sm-4">
+                    <p class="nav"><a href="#education">Education</a></p>
+                </div>
+            </div>
+        </div>
+
+        <hr class="thick-line" id=one/>
+
         <div class="container-fluid">
             <div class="row">
                 <div class="col-sm-7">
                     <h1>Brooke Ensminger</h1>
                     <h2>Photographer</h2>
-                    <button><a href="mailto:bensminger121@gmail.com">Contact Me</a></button>
+                    <button onclick="window.open('mailto:bensminger121@gmail.com')">Contact Me</button>
                 </div>
                 <div class="col-sm-5">
-                    <img src="20231006_NPPA%20headshots_466.HEIC" alt="A photo of Brooke Ensminger" id="headshot" />
+                    <img src="headshot.jpg" alt="A photo of Brooke Ensminger" id="headshot" />
                 </div>
             </div>
         </div>
-        <hr class="thick-line" />
+        <hr class="thick-line"/>
 
-        <h3>EXPERIENCE</h3>
+        <h3 id="experience">EXPERIENCE</h3>
         <h4>STUDENT VIDEO INTERN</h4>
         <h5>Maryland Football</h5>
         <h6 class="date">Mar. 2024 – Present</h6>
@@ -73,19 +90,21 @@
             Over the past two years, I’ve worked as a photographer, photographing everything from graduations to couple
             shoots to dance competition!
         </h6>
+        <hr class="thick-line-2"/>
 
-        <h3>SKILLS</h3>
-        <br>
-        <body class="skills">
+        <h3 id="skill">SKILLS</h3>
+        <div class="skills">
             <p>Photography</p>
             <p>Social Media</p>
             <p>Adobe Premiere Pro</p>
             <p>Adobe Lightroom</p>
             <p>Canva</p>
             <p>CapCut</p>
-            <p>Instant Replay Systems</p></body>
+            <p>Instant Replay Systems</p>
+        </div>
+        <hr class="thick-line-2"/>
 
-        <h3>EDUCATION</h3>
+        <h3 id="education">EDUCATION</h3>
         <h4>Bachelor of Arts, Journalism</h4>
         <h5>University of Maryland, College Park</h5>
         <h6 class="date">2027</h6>
@@ -96,7 +115,7 @@
         <br />
         <div class="container-fluid">
             <div class="row">
-                <img src="250324_liveedits_wbb_alabama-0171.heic" alt="A photo of Brooke Ensminger" id="madness" />
+                <img src="madness.jpg" alt="A photo of Brooke Ensminger" id="madness" />
             </div>
         </div>
     </body>
