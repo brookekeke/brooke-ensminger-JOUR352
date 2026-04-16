@@ -1,0 +1,39 @@
+/*
+COLORS
+Orange: #F57B20
+Orange 2: #FA4D00
+*/
+
+
+#article {
+    width: 75%;
+    margin: auto;
+    align-content: center;
+    font-family: Georgia, sans-serif;
+}
+
+#h1 {
+    font-size: 30px;
+    font-weight: bold;
+    padding-top: 20px
+}
+
+#h2 {
+    font-size: 20px;
+    color: #FA4D00
+}
+
+#byline {
+    font-size: 18px
+}
+
+#date {
+   font-size: 12px;
+    color: grey;
+}
+p {
+    font-size: 15px
+}
+
+
+
