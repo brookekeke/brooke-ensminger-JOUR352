@@ -1,0 +1,53 @@
+/*
+COLORS
+Orange: #F57B20
+Orange 2: #FA4D00
+Light Gray: #a6a6a6
+Dark Gray: #545454
+
+*/
+
+#article {
+    align-content: center;
+    background-color: black;
+    font-family: Georgia, sans-serif;
+}
+
+#headline {
+    font-size: 50px;
+    font-weight: bold;
+    padding-top: 20px;
+    color: #fa4d00;
+}
+
+#headshot {
+    width: 35px;
+    float: left;
+    margin-right: 15px;
+}
+
+#byline {
+    font-size: 18px;
+    color: white;
+}
+
+#date {
+    font-size: 12px;
+    color: #a6a6a6;
+}
+p {
+    font-size: 15px;
+    width: 75%;
+    margin: auto;
+    color: white;
+}
+
+video {
+    width: 100%;
+    height: fit-content;
+    margin-bottom: 10px
+}
+
+h4 {
+    color: #FA4D00
+}
