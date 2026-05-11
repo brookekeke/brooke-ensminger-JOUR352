@@ -4,50 +4,208 @@ Orange: #F57B20
 Orange 2: #FA4D00
 Light Gray: #a6a6a6
 Dark Gray: #545454
-
 */
 
-#article {
-    align-content: center;
-    background-color: black;
-    font-family: Georgia, sans-serif;
+@media screen {
+    #article {
+        align-content: center;
+        background-color: black;
+        font-family:
+            League Gothic,
+            sans-serif;
+    }
+
+    .fullwidth {
+        padding: 0;
+    }
+
+    #headline {
+        font-size: 60px;
+        font-weight: bold;
+        padding-top: 20px;
+        color: #fa4d00;
+        text-align: center;
+    }
+
+    #headshot {
+        width: 35px;
+        float: left;
+        margin-right: 15px;
+    }
+
+    #byline {
+        font-size: 18px;
+        color: white;
+    }
+
+    #date {
+        font-size: 12px;
+        color: #a6a6a6;
+    }
+
+    p {
+        font-size: 15px;
+        width: 100%;
+        margin: auto;
+        color: white;
+        font-family: Merriweather, serif;
+        padding-top: 10px;
+        padding-bottom: 10px;
+    }
+
+    video {
+        width: 100%;
+        height: fit-content;
+        place-items: center;
+        margin-top: 60px;
+        outline: 1px solid #fa4d00;
+    }
+
+    h4 {
+        color: #fa4d00;
+        font-weight: bold;
+        font-size: 40px;
+        margin-top: 40px;
+    }
+
+    .number {
+        font-size: 80px;
+        color: #a6a6a6;
+        font-weight: normal;
+        margin-right: 15px;
+        margin-left: 0;
+    }
+
+    .caption {
+        font-size: 10px;
+        color: #a6a6a6;
+    }
+
+    #chart-1 {
+        margin-top: 50px;
+        outline: 1px solid #fa4d00;
+    }
+
+    #quiz {
+        margin-top: 50px;
+    }
+
+    #main {
+        width: 100%;
+        margin: 0;
+        margin-bottom: 20px;
+    }
+
+    #officials {
+        width: 100%;
+        margin: auto;
+        align-content: center;
+        margin-top: 40px;
+        outline: 1px solid #fa4d00;
+    }
+
+    #sykes {
+        width: 100%;
+        margin: auto;
+        align-content: center;
+        margin-top: 40px;
+        outline: 1px solid #fa4d00;
+    }
+
+    #mvp {
+        width: 100%;
+        margin: auto;
+        align-content: center;
+        margin-top: 40px;
+        outline: 1px solid #fa4d00;
+    }
+
+    #roster {
+        margin-top: 20px;
+    }
+
+    #mom {
+        margin-top: 40px;
+        outline: 1px solid #fa4d00;
+        width: 100%;
+        align-content: center;
+    }
+
+    img {
+        width: 100%;
+        display: block;
+    }
+
+    .quote {
+        width: 100%;
+        margin: 10px auto;
+        color: white;
+        font-weight: bol;
+        font-size: 30px;
+        text-align: center;
+        font-family:
+            League Gothic,
+            sans-serif;
+        line-height: 1.1;
+        background-color: #fa4d00;
+        padding-left: 10px;
+        padding-right: 10px;
+    }
 }
 
-#headline {
-    font-size: 50px;
-    font-weight: bold;
-    padding-top: 20px;
-    color: #fa4d00;
-}
+@media (min-width: 576px) {
+    #headline {
+        font-size: 90px;
+    }
 
-#headshot {
-    width: 35px;
-    float: left;
-    margin-right: 15px;
-}
+    .number {
+        margin-left: 15px;
+    }
 
-#byline {
-    font-size: 18px;
-    color: white;
-}
+    p {
+        width: 75%;
+    }
 
-#date {
-    font-size: 12px;
-    color: #a6a6a6;
-}
-p {
-    font-size: 15px;
-    width: 75%;
-    margin: auto;
-    color: white;
-}
+    video {
+        width: 75%;
+    }
 
-video {
-    width: 100%;
-    height: fit-content;
-    margin-bottom: 10px
-}
+    #img {
+        width: 75%;
+    }
 
-h4 {
-    color: #FA4D00
+    #sykes {
+        width: 75%;
+    }
+
+    #mvp {
+        width: 75%;
+    }
+
+    #officials {
+        width: 75%;
+    }
+
+    #mom {
+        align-content: center;
+    }
+
+    .caption {
+        width: 75%;
+        font-size: 12px;
+    }
+
+    h4 {
+        font-size: 60px;
+        line-height: 1;
+    }
+
+    .number {
+        font-size: 140px;
+    }
+
+    .quote {
+        width: 75%;
+        font-size: 40px;
+    }
 }
